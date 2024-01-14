@@ -1,0 +1,4 @@
+{
+  "name": "yarn-workspaces",
+  "packageManager": "yarn@4.0.2"
+}
