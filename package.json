@@ -1,4 +1,11 @@
 {
   "name": "yarn-workspaces",
-  "packageManager": "yarn@4.0.2"
+  "packageManager": "yarn@4.0.2",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
 }
